@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  frontend:
+    build: .
+    container_name: app_front
+    ports:
+      - '3000:3000'
+
